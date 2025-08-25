@@ -7,7 +7,7 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 32px;
+  padding: 8px;
   margin: 12px;
 }
 
@@ -25,4 +25,33 @@ body {
   /* CHANGE ME */
   padding: 32px;
   margin-left: auto;
+}
+
+.card {
+  padding: 8px;
+}
+
+.title {
+  margin-bottom: 8px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.content {
+  margin-bottom: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.button-container {
+  text-align: center;
+  padding: 8px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
 }
